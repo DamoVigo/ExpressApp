@@ -1,0 +1,17 @@
+<h3>Countries</h3>
+<select name="" id="countries">
+    {{#each data}}
+    <option value="{{this.code}}">{{this.name}}</option> //
+    {{/each}}
+</select>
+
+<h1> Express App : {{country.title}}</h1><br>
+<select name="country">
+    {{#each data}}
+    {{#compare this.code 'US' operator='=='}}
+    <option value="{{this.code}}" selected>{{this.name}}</option>
+    {{else}}
+    <option value="{{this.code}}">{{this.name}}</option>
+    {{/compare}}
+    {{/each}}
+</select>

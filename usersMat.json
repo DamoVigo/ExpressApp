@@ -1,0 +1,32 @@
+[
+    {
+        "name": "MASCARON",
+        "firstName": "Stéphane",
+        "login": "steph",
+        "mdp": "azerty",
+        "function": "Free Software Architecte",
+        "office": "SMaLL Stéphane MASCARON Architecte Logiciels Libres",
+        "date_naiss": "22/04/1970",
+        "adresse1": "xxx avenue des freesoftwares",
+        "adresse2": "",
+        "cp": "40000",
+        "city": "MONT-DE-MARSAN",
+        "mobile_phone": "0609090909",
+        "homephone": "0558080808"
+    },
+    {
+        "name": "THOMAS",
+        "firstName": "Mathieu",
+        "login": "mat",
+        "mdp": "azerty",
+        "function": "Dev en mousse",
+        "office": "GretaJS",
+        "date_naiss": "23/01/1987",
+        "adresse1": "7 rue coppa compté",
+        "adresse2": "",
+        "cp": "64000",
+        "city": "PAU",
+        "mobile_phone": "0609090909",
+        "homephone": "0558080808"
+    }
+]

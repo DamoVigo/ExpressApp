@@ -1,0 +1,11 @@
+<h3>Countries By DataBase Mongo</h3>
+<h1>{{title}}</h1>
+<select name="country">
+    {{#each countries}}
+    {{#compare this.code 'FR' operator='=='}}
+    <option value="{{this.code}}" selected>{{this.name}}</option>
+    {{else}}
+    <option value="{{this.code}}">{{this.name}}</option>
+    {{/compare}}
+    {{/each}}
+</select>

@@ -1,0 +1,51 @@
+{
+    "GET/": {
+        "controler": "index"
+    },
+    "GET/users": {
+        "controler": "users"
+    },
+    "GET/usersAdd": {
+        "controler": "usersAdd",
+        "collection": "users",
+        "return-type": "application/json"
+    },
+    "GET/exos": {
+        "controler": "exos",
+        "collection": "exercices",
+        "view": "exos",
+        "return-type": "application/json"
+    },
+    "GET/exosJSON": {
+        "controler": "exosJSON",
+        "collection": "exercices",
+        "return-type": "application/json"
+    },
+    "GET/countries": {
+        "controler": "countries",
+        "collection": "countries",
+        "view": "countries"
+    },
+    "GET/countriesDB": {
+        "controler": "countriesDB",
+        "collection": "countries",
+        "view": "countriesDB"
+    },
+    "GET/formUser": {
+        "controler": "formUser",
+        "collection": "users"
+    },
+    "GET/modifyUser": {
+        "controler": "modifyUser",
+        "collection": "users"
+    },
+    "GET/newUser": {
+        "controler": "newUser",
+        "collection": "users"
+    },
+    "GET/createUser": {
+        "controler": "createUser",
+        "collection": "users",
+        "return-type": "application/json"
+    }
+}

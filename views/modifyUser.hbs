@@ -1,0 +1,26 @@
+<h1> Express App : {{title}}</h1>
+<form methode="POST" action="{{form_action}}" id="formAddUser">
+    <input type="hidden" name="id" value="{{user._id}}" />
+    name : {{user.name}}<br />
+    firstName : {{user.firstName}}<br />
+    login : {{user.login}}<br />
+    mdp : {{user.mdp}}<br />
+    function : {{user.function}}<br />
+    office : {{user.office}}<br />
+    date de naissancenaiss : {{user.date_naiss}}<br />
+    adresse1 : {{user.adresse1}}<br />
+    adresse2 : {{user.adresse2}}<br />
+    cp : {{user.cp}}<br />
+    city : {{user.city}}<br />
+    mobile_phone : {{user.mobile_phone}}<br />
+    home_phone : {{user.home_phone}}<br />
+    <input type="submit" value="Confirmer la {{libelle}}" />
+</form>
+<!-- Script de validation du formulaire de modification -->
+<script>
+    var form = document.getElementById('formAddUser');
+    form.addEventListener('submit', function (evt) {
+        form.action += "/{{user._id}}";
+        form.submit();
+    });
+</script>
